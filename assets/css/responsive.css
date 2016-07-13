@@ -170,10 +170,15 @@
     margin-top: 0px !important;
   }
   .row {
-    margin-left: -1.5rem !important;
-    margin-right: -1.5rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     overflow-x: hidden !important;
   }
+  
+  .row .col {
+    padding: 0 !important;
+  }
+  
   /* Nav  Style*/
   .button-collapse i {
     margin-left: 20px;
