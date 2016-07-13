@@ -175,8 +175,12 @@
     overflow-x: hidden !important;
   }
   
-  .row .col {
-    padding: 0 !important;
+  .row {
+    overflow: visible; !important;
+  }
+  
+  .heading{
+    margin: -0.75em;
   }
   
   /* Nav  Style*/
